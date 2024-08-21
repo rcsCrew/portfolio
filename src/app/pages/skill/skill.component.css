@@ -1,0 +1,225 @@
+.lin {
+    width: 100%;
+    height: 2px;
+    background: red;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 5px;
+    margin-bottom: 100px;
+}
+
+.area3-left h1 {
+    margin-top: 100px;
+    color: rgb(170, 170, 170);
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.area3-left h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.area3-left .skill-comp {
+    width: calc(100% - 70px);
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.area3-left .skill-comp p {
+    background: rgba(35, 35, 45, 1);
+    border-radius: 15px;
+    flex: 1 1 auto;
+    padding: 10px;
+    text-align: center;
+    color: rgb(170, 170, 170);
+    box-sizing: border-box;
+}
+
+
+/* */
+
+
+/* */
+
+
+/* */
+
+
+/* */
+
+
+/* */
+
+.area3-left {
+    width: 50%;
+    margin-right: 5px;
+    display: flex;
+    gap: 10px;
+    min-width: 85%;
+}
+
+
+/* */
+
+.area3-right {
+    width: 100%;
+    display: flex;
+}
+
+.area3-right .logos-skill {
+    grid-gap: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 10rem);
+    height: 100%;
+    place-content: center;
+    place-items: center;
+    top: 0;
+    width: 100%;
+    margin-left: -100px;
+    z-index: 0;
+}
+
+.area3-right .logos-skill .logobg {
+    align-items: center;
+    background: hsla(0, 0%, 67%, .1);
+    border-radius: 2rem;
+    display: flex;
+    height: 7rem;
+    justify-content: center;
+    transition: all .5s;
+    padding: 23px;
+}
+
+.logo-1 {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 100px;
+    transform: scale(1.1);
+}
+
+.logo-2 {
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 0px;
+    transform: scale(0.8);
+}
+
+.logo-3 {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 200px;
+    transform: scale(0.6);
+}
+
+.logo-4 {
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 0px;
+    transform: scale(1);
+}
+
+.logo-5 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 320px;
+    transform: scale(0.6);
+}
+
+.logo-6 {
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 230px;
+    transform: scale(0.7);
+}
+
+.logo-7 {
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 380px;
+    transform: scale(0.7);
+}
+
+.logo-8 {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 460px;
+    transform: scale(0.9);
+}
+
+.logo-9 {
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 250px;
+}
+
+@media (max-width: 1224px) {
+    .area3-right {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+    .container2 {
+        align-items: center;
+    }
+    .area3-left h1 {
+        margin-top: 100px;
+        color: rgb(170, 170, 170);
+        font-size: 22px;
+        margin-bottom: 6px;
+        width: 100%;
+        text-align: center;
+    }
+    .area3-left h2 {
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .area3-left .skill-comp {
+        width: 100%;
+        /* Mantém a largura desejada */
+        margin: 15px auto 0 auto;
+        /* Centraliza horizontalmente com margens automáticas */
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* Centraliza os itens dentro do contêiner */
+        gap: 10px;
+    }
+    .area3-left .skill-comp p {
+        background: rgba(35, 35, 45, 1);
+        border-radius: 15px;
+        flex: 1 1 auto;
+        padding: 10px;
+        text-align: center;
+        color: rgb(170, 170, 170);
+        box-sizing: border-box;
+    }
+    img {
+        position: absolute;
+        left: 150%;
+    }
+}
+
+
+/* Smartphones */
+
+@media (max-width: 768px) {
+    .responsive-element {
+        width: 200px;
+        height: 100px;
+    }
+}
