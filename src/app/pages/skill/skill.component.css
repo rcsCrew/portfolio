@@ -45,6 +45,10 @@
     box-sizing: border-box;
 }
 
+.area3-left .skill-comp p:hover {
+    background: rgba(20, 20, 20, 1);
+}
+
 
 /* */
 
@@ -99,6 +103,10 @@
     justify-content: center;
     transition: all .5s;
     padding: 23px;
+}
+
+.area3-right .logos-skill .logobg:hover {
+    background: rgba(20, 20, 20, 1);
 }
 
 .logo-1 {
