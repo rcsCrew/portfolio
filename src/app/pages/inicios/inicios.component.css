@@ -1,3 +1,5 @@
+
+
 .container1 {
     display: flex;
     flex-direction: column;
@@ -52,22 +54,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* Alinha os itens no centro do contêiner */
     margin-top: 10%;
-    /* Espaço entre o lado esquerdo e o lado direito */
 }
 
 .right-sobre {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    /* Alinha o conteúdo à direita */
     justify-content: center;
     text-align: end;
     margin-top: 10%;
-    /* Centraliza verticalmente os itens no contêiner */
     margin-left: 20px;
-    /* Espaço entre o lado direito e o lado esquerdo */
 }
 
 .right-sobre .experiencia p {
@@ -85,7 +82,6 @@
     text-decoration: none;
     border-radius: 9px;
     text-align: center;
-    /* Centraliza o texto dentro do link */
 }
 
 .right-sobre .download a:hover {
@@ -95,13 +91,9 @@
 .eufoto {
     display: flex;
     justify-content: center;
-    /* Centraliza horizontalmente */
     align-items: center;
-    /* Centraliza verticalmente */
     width: 100%;
-    /* Certifique-se de que o contêiner ocupa a largura total */
     height: 100%;
-    /* Pode ajustar conforme necessário */
     margin-top: 30px;
 }
 
@@ -112,14 +104,8 @@
     max-width: 40%;
     height: auto;
     margin: 0;
-    /* Remove qualquer margem padrão */
 }
 
-
-/* */
-
-
-/* */
 
 hr {
     margin-top: 20px;
@@ -233,105 +219,104 @@ hr {
 }
 
 @media only screen and (max-width: 700px) {
-    .container1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        padding-left: 0;
-    }
-    .container1 .logo {
-        padding-top: 40%;
-        padding-bottom: 20px;
-        font-size: 18px;
-        font-weight: 500;
-        text-align: center;
-    }
-    .container1 h2 {
-        font-size: 30px;
-        color: white;
-        font-weight: 400;
-        text-align: center;
-    }
-    .container1 h3 {
-        margin-top: 20px;
-        width: 100%;
-        /* Ajustado para ocupar toda a largura */
-        color: rgb(170, 170, 170);
-        font-weight: 200;
-        font-size: 15px;
-        max-width: 315px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .right-sobre {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 50px;
-        text-align: center;
-    }
-    .arrow {
-        position: absolute;
-        top: 70vh;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0;
-    }
-    .sobre-r h1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .sobre-r p {
-        display: flex;
-        max-width: 75%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-    .mora {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .mora h1 {
-        font-size: 15px;
-        margin: 0;
-        text-align: center;
-    }
-    .mora p {
-        font-size: 1em;
-        margin: 10px 0 0 0;
-        text-align: center;
-    }
-    .eufoto img {
-        display: block;
-        margin: 25px auto 0 auto;
-        border: solid 9px rgb(26, 25, 25);
-        border-radius: 40px;
-        width: 30%;
-        height: auto;
-    }
-    .sobre {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .right-sobre p {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+  .container1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      padding-left: 0;
+  }
+  .container1 .logo {
+      padding-top: 40%;
+      padding-bottom: 20px;
+      font-size: 18px;
+      font-weight: 500;
+      text-align: center;
+  }
+  .container1 h2 {
+      font-size: 30px;
+      color: white;
+      font-weight: 400;
+      text-align: center;
+  }
+  .container1 h3 {
+      margin-top: 20px;
+      width: 100%;
+      color: rgb(170, 170, 170);
+      font-weight: 200;
+      font-size: 15px;
+      max-width: 315px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .right-sobre {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      text-align: center;
+  }
+  .arrow {
+      position: absolute;
+      top: 70vh;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0;
+  }
+  .sobre-r h1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .sobre-r p {
+      display: flex;
+      max-width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+  .mora {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .mora h1 {
+      font-size: 15px;
+      margin: 0;
+      text-align: center;
+  }
+  .mora p {
+      font-size: 1em;
+      margin: 10px 0 0 0;
+      text-align: center;
+  }
+  .eufoto img {
+      display: block;
+      margin: 25px auto 0 auto;
+      border: solid 9px rgb(26, 25, 25);
+      border-radius: 40px;
+      width: 30%;
+      height: auto;
+  }
+  .sobre {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .right-sobre p {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
 }

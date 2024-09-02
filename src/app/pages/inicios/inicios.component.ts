@@ -8,5 +8,4 @@ import { Component, OnInit, Inject } from '@angular/core';
 })
 export class IniciosComponent {
 
-
 }

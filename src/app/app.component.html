@@ -1,18 +1,19 @@
-<router-outlet />
 <div class="container-main">
 
-    <nav>
-        <a class="ctt" href="#">
-      CONTATO PARTICULAR
+  <nav>
+    <a rel="noopener noreferrer" target="_blank" class="ctt" href="https://wa.me/+5542999212991">
+      Contato via WhatsApp
     </a>
-        <div class="right">
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Habilidades</a>
-            <a href="#">Projetos</a>
-            <a href="#">Contato</a>
-        </div>
-    </nav>
 
-    <router-outlet />
+      <div class="right">
+          <a href="#">Home</a>
+          <a href="/home#sobre" (click)="scrollTo('sobre')">Sobre</a>
+          <a href="/home#habilidade" (click)="scrollTo('habilidade')">Habilidades</a>
+          <a href="/home#projeto" (click)="scrollTo('projeto')">Projetos</a>
+          <a href="#">Contato</a>
+      </div>
+  </nav>
+
+
 </div>
+<router-outlet />
